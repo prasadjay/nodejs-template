@@ -1,28 +1,44 @@
 {
-  "name": "nodejs-template",
+  "name": "sample_api",
   "version": "1.0.0",
-  "description": "Sample description",
+  "description": "Tywar API",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://prasadjay@bitbucket.org/nitrosoftworks/nodejs-template.git"
+    "url": "git+https://dev.azure.com/arvtiwar/sample_api/_git/sample_api"
   },
   "author": "Prasad Jayashanka",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/nitrosoftworks/nodejs-template#readme",
+  "homepage": "https://www.tywar.com/",
   "dependencies": {
-    "async": "^2.6.1",
+    "amazon-cognito-identity-js": "^3.0.6",
+    "aws-sdk": "^2.382.0",
     "bluebird": "^3.5.2",
     "body-parser": "^1.18.3",
     "config": "^2.0.1",
     "cors": "^2.8.4",
     "express": "^4.16.4",
-    "moment": "^2.22.2",
+    "express-validation": "^1.0.2",
+    "helmet": "^3.15.0",
+    "ioredis": "^4.3.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "jwk-to-pem": "^2.0.1",
+    "moment": "^2.23.0",
+    "moment-timezone": "^0.5.23",
     "mongoose": "^5.3.4",
+    "morgan": "^1.9.1",
     "njwt": "^0.4.0",
-    "regex-email": "^1.0.2"
+    "node-fetch": "^2.3.0",
+    "regex-email": "^1.0.2",
+    "request": "^2.88.0",
+    "swagger-tools": "^0.10.4",
+    "swagger-ui": "^3.20.4",
+    "uuid": "^3.3.2",
+    "winston": "^3.1.0",
+    "yamljs": "^0.3.0"
   }
 }
